@@ -7,15 +7,27 @@
     <title>Random</title>
 </head>
 <body>
-    <div class="conteiner">
-        <button type="button" class="random" onclick="Random()">Сгенирировать число</button>
-        <p class="generated"></p>
-        <p class="min"></p>
-        <p class="max"></p>
-        <p class="sum"></p>
-        <p class="mean"></p>
-        <p class="product"></p>
-    </div>
+    <h1>ГЕНЕРАТОР СЛУЧАЙНЫХ ЧИСЕЛ</h1>
+    <button class="btn" type="button" onclick="generate()">СГЕНЕРИРОВАТЬ</button><br>
+
+    <label for="nums" class="name">Сгенерированные числа:</label>
+    <div id="nums" class="value"></div>
+
+    <label for="min" class="name">Минимальное число:</label>
+    <div id="min" class="value"></div>
+
+    <label for="max" class="name">Максимальное число:</label>
+    <div id="max" class="value"></div>
+
+    <label for="average" class="name">Среднее арифметическое:</label>
+    <div id="average" class="value"></div>
+
+    <label for="sum" class="name">Сумма всех чисел:</label>
+    <div id="sum" class="value"></div>
+
+    <label for="multiplication" class="name">Произведение всех чисел:</label>
+    <div id="multiplication" class="value"></div>
+
 
     <script src="/src/scripts/random.js"></script>
 </body>
