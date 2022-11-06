@@ -27,7 +27,7 @@ function formatDate(date) {
     return day.slice(0, 3).join('.') + ' ' + day.slice(3).join(':');
   }
   
-  //alert( formatDate(new Date(new Date - 1)) ); 
-  //alert( formatDate(new Date(new Date - 30 * 1000)) ); 
-  //alert( formatDate(new Date(new Date - 5 * 60 * 1000)) ); 
+  alert( formatDate(new Date(new Date - 1)) ); 
+  alert( formatDate(new Date(new Date - 30 * 1000)) ); 
+  alert( formatDate(new Date(new Date - 5 * 60 * 1000)) ); 
   alert( formatDate(new Date(new Date - 86400 * 1000)) );
